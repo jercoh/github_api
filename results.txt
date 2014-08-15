@@ -1,1 +1,0 @@
-Last year, the week that had the greatest number of commits is week #11.

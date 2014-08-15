@@ -31,8 +31,6 @@ def main():
     	get_busiest_day(line)
     busiest_week = max(weekly_commits.iteritems(), key=operator.itemgetter(1))[0]
     busiest_day = max(daily_commits.iteritems(), key=operator.itemgetter(1))[0]
-    print weekly_commits
-    print daily_commits
     print "Last year, the week that had the greatest number of commits is week #"+str(busiest_week)+"."
     print "Last year, the day that had the greatest number of commits is "+str(busiest_day.date())+" in week #"+str(busiest_day.isocalendar()[1])+"."
 
